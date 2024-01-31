@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 1005;
+}
+.loader-1{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 2;
+    background-color: #F5E41B;
+}
+
+/* Loader- */
+.loader{
+    width: 100vw;
+    height: 100vh;
+    background-color:#000000;
+    position: fixed;
+    z-index: 1;
+    font-family: Freight Big Pro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:#ffffff;
+}
+.loader h1{
+    font-size: 6.6vw;
+    line-height: 5vw;
+    font-weight: 100;
+    letter-spacing: -2px;
+    z-index: 9;
+    position: relative;
+
+}
+.yellow1{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F5E41B;
+    position: absolute;
+    z-index: 8;
+}
+.yellow2{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F5E41B;
+    position: absolute;
+    z-index: 7;
+}
+.loader video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 6;
+}
+
+#main{
+    position: relative;
+}
+
+/* Page-1 */
+
+.page-1{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color:#F5E41B;
+    font-family: Freight Big Pro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.page-1 h1{
+    font-size: 6.6vw;
+    line-height: 5vw;
+    font-weight: 100;
+    letter-spacing: -2px;
+}
+
+/* page-1 */
+.page-2{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(114, 82, 82);
+}
