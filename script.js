@@ -59,3 +59,13 @@ function pageAmi() {
   })
 };
 pageAmi();
+
+
+let elems = document.querySelectorAll('.elem');
+elems.forEach((e) => {
+  e.addEventListener('mouseenter',(i) => {
+    let img = e.getAttribute('data-img');
+    document.querySelector('.page-2').style.backgroundImage = `url(${img})`;
+  })
+  
+})
