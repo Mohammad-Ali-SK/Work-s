@@ -60,6 +60,9 @@ function pageAmi() {
 };
 pageAmi();
 
+document.querySelector('.footer h2').addEventListener('click',(e) => {
+ loco().scrollTo(0)
+})
 
 let elems = document.querySelectorAll('.elem');
 elems.forEach((e) => {
